@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+  http:
+    encoding:
+      charset: utf8
+server:
+  port: 80
+  

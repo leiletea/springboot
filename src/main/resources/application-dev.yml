@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/springboot
+    username: root
+    password: xwm123
+    driverClassName: com.mysql.jdbc.Driver
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  typeAliasesPackage: com.wenming.springboot.entity
