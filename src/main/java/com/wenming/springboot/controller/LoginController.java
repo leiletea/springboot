@@ -22,9 +22,9 @@ import com.wenming.springboot.constant.ResultBean;
 import com.wenming.springboot.constant.ResultCode;
 
 @RestController
-public class HomeController {
+public class LoginController {
 
-	protected static Logger logger = LoggerFactory.getLogger(HomeController.class);
+	protected static Logger logger = LoggerFactory.getLogger(LoginController.class);
 
 	@RequestMapping(value = "/{name}", method = RequestMethod.GET)
 	String hello(@PathVariable(name = "name") String name) throws Exception {

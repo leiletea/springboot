@@ -3,7 +3,8 @@ spring:
     active: dev
   http:
     encoding:
-      charset: utf8
+      charset: utf-8
+      enabled: true
 server:
   port: 80
   

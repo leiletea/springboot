@@ -3,10 +3,6 @@ package com.wenming.springboot.constant;
 public class ResultBean {
 	private boolean status = true;
 
-	private int resultCode;
-
-	private String message;
-
 	private Object data;
 
 	private ResultCode resCode;
@@ -41,17 +37,11 @@ public class ResultBean {
 		return resCode.getCode();
 	}
 
-	public void setResultCode(int resultCode) {
-		this.resultCode = resultCode;
-	}
 
 	public String getMessage() {
 		return resCode.getMessage();
 	}
 
-	public void setMessage(String message) {
-		this.message = message;
-	}
 
 	public Object getData() {
 		return data;
