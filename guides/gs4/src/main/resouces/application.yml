@@ -1,0 +1,7 @@
+server:  
+  port: 80 
+spring:
+   http: 
+    multipart: 
+      max-file-size: 128KB
+      max-request-size: 128KB   
